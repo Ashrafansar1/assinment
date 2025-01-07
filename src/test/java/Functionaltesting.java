@@ -3,12 +3,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class Functionaltesting {
     public static void main(String[] args) {
         // Set the path to your WebDriver executable
-    	 WebDriverManager.chromedriver().setup();
+    	// WebDriverManager.chromedriver().setup();
  // Update with your path
 
         WebDriver driver = new ChromeDriver();
